@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+        *{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: lightgray;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url("https://www.iles.com/images/xl/plage-belle-ile-mer.jpg")lightblue ;
+    box-shadow: 0px 0px 15px #333;
+}
+header h1{
+    color: black;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    border-top: 2px solid #fff;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: black;
+}
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.prez{
+    border-bottom: 2px dashed #ccc;
+}
+.prez a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: #EA0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size:  1.2em;
+}
+.exp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+/*SECTION COMPETENCES*/
+.h3gauche{
+    width: 90%;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c85{
+    width: 85%;
+    background-color: #8B8;
+}
+.c90{
+    width: 90%;
+    background-color: #4B8;
+}
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+.c100{
+    width: 100%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+    </style>
+    <title>CV-profil-1</title>
+</head>
+<body>
+    <header><h1>CV de Mamadou Ngoma Dieng</h1></header>
+    <section>
+        <div class="photo">
+            <img src="https://img.freepik.com/photos-premium/image-dessin-anime-homme-barbe-chapeau-qui-dit-il-sourit_961307-765.jpg" alt="Ma photo de profil">
+        </div>
+
+        <div class="prez">
+            <h2>Qui suis-je ?</h2>
+            <p>Je suis un etudiant en master 2 electronique système et télécommunication 
+                à l'UCAD où j'ai obtenu mon licence en PCSM.<br/> Je suis en même temps une  
+               formation de développement web a Gomycode. </p>
+            <a href="#" download>Télécharger mon CV</a>
+        </div>
+
+    
+        <div class="contact">
+            <h2>Informations de contact</h2>
+             <div class="contact-flex">
+                <p>Nom : </p>
+                <p>Mamadou Ngoma Dieng</p>
+            </div>
+            <div class="contact-flex">
+               <p>Adresse : </p>
+               <p>Thiaroye/mer</p>
+            </div>
+            <div class="contact-flex">
+                <p>Téléphone :</p>
+                <p>+221 77 272 13 90</p>
+            </div>
+            <div class="contact-flex">
+                <p>Mail : </p>
+                <p><a href="#">mamadoungomadieng@gmail.com</a></p>
+            </div>
+            <div class="social">
+                <a href="#"><img src="https://freepnglogo.com/images/all_img/1713419166FB_Logo_PNG.png" alt="Logo Fb"></a>
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiHIZuDb--IJ-q5d97gWm1W2eyLj7BePcWnQ&s" alt="Logo Tw"></a>
+                <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt="Logo Lk"></a>
+                <a href="#"><img src="https://www.pngall.com/wp-content/uploads/13/Logo-Youtube-PNG-Images.png" alt="Logo Yt"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Formation</h2>
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="https://www.senegal24news.com/wp-content/uploads/2021/04/ucad.jpg" alt="Logo UCAD"></a>           </div>
+            <div class="exp-info">
+                <h3>Licence Physique Chimie Science de la Matiere</h3>
+                
+            </div>
+            <div class="exp-desc">
+                <p>UNIVERSITE CHEIKH ANTA DIOP DE DAKAR</p>
+            </div>
+        </div>
+
+        <div class="exp">
+            <div class="exp-logo">
+                <a href="#"><img src="https://media.licdn.com/dms/image/C4E0BAQGbr2ocZ8R_-g/company-logo_200_200/0/1631330854344?e=2147483647&v=beta&t=NmDVnn2w9XK6rlb5R2zzfOrJAk2E8pz2lwCEO_dFvQ8" alt="Logo educazur"></a>
+            </div>
+            <div class="exp-info">
+                <h3>BAC S2</h3>
+                
+            </div>
+            <div class="exp-desc">
+                <p>GROUPE SCOLAIRE EDUCAZUR</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Compétences</h2>
+        <h3 class="h3gauche">Personnelles</h3>
+        <div class="comp2">
+            <p>Créativité</p>
+            <p>90%</p>
+            <div class="conteneur-barre2"><span class="barre c90"></span></div>
+        </div>
+
+        <div class="comp2">
+            <p>Adaptation</p>
+            <p>85%</p>
+            <div class="conteneur-barre2"><span class="barre c85"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Sérieux</p>
+            <p>95%</p>
+            <div class="conteneur-barre2"><span class="barre c95"></span></div>
+        </div>
+        <div class="comp2">
+            <p>Pédagogie</p>
+            <p>95%</p>
+            <div class="conteneur-barre2"><span class="barre c95"></span></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Centres d'intérêt</h2>
+        <figure class="interet">
+            <img src="https://www.senpages.com/app/uploads/les-bienfaits-du-sport-senpages.jpeg" alt="Sport">
+            <figcaption>Sport</figcaption>
+        </figure>
+
+        
+        <figure class="interet">
+            <img src="https://www.aabga.org/wp-content/uploads/2024/02/eletronique-bricolage.jpg" alt="Bidouillage">
+            <figcaption>Bidouiller</figcaption>
+        </figure>
+    </section>
+
+    <footer>
+        <p><a href="#">©Ngoma Dieng</a> </p>
+        
+    </footer>
+
+</body>
+</html>
